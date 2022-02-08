@@ -1,0 +1,14 @@
+    float Timer = 0.0F;
+    float TimeToWait = 1F;
+
+    void Update()
+    {
+        Timer += Time.deltaTime;
+
+        if (Timer > TimeToWait)
+        {
+
+            Timer = Timer - TimeToWait;
+        }
+
+    }
